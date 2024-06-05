@@ -1,0 +1,55 @@
+body{
+    background-color: rgb(106, 255, 0);
+
+    .left-box{
+        background-color: rgb(243, 67, 231);
+        width: 900px;
+        height: 550px;
+        float: left;
+        padding: 10px;
+        text-align: center;
+        outline: solid black;
+        outline-offset: -10px;
+        color: rgb(0, 0, 0);
+    }
+
+    .right-box{
+        background-color: rgb(237, 160, 8);
+        width: 500px;
+        height: 550px;
+        float: right;
+        padding: 10px;
+        text-align: center;
+        outline: solid black;
+        outline-offset: -10px;
+        color: rgb(0, 0, 0);
+    }
+
+    .footer{
+        background-color: rgb(17, 17, 17);
+        right: 10px;
+        left: 10px; 
+        bottom: 15px;
+        padding: 40px;
+        position: fixed;
+        color: rgb(255, 255, 255);
+        text-align: center;
+    }
+
+    .inside-right{
+        background-color: rgb(155, 155, 155);
+        padding: 10px;
+        margin: 10px;
+        border: 2px inset blue;
+        width: 457px;
+        height: 507px;
+
+    }
+
+    .middle{
+        margin: 50px;
+        word-spacing: 150px;
+        text-align: left;
+
+    }
+}
